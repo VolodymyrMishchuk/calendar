@@ -1,5 +1,12 @@
 const CalendarApp = () => {
-  return (
+    const daysOfWeek = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+    const monthsOfYear = ['January', 'February', 'March', 'April', 'May', 'June', 'Jule', 'August', 'September', 'October', 'November', 'December'];
+
+    const currentDate = new Date ();
+
+    const []
+
+    return (
     <div className="calendar-app">
         <div className="calendar">
             <h1 className="heading">Calendar</h1>
@@ -12,13 +19,13 @@ const CalendarApp = () => {
                 </div>
             </div>
             <div className="weekdays">
-                <span>Sun</span>
                 <span>Mon</span>
                 <span>Tue</span>
                 <span>Wed</span>
                 <span>Thu</span>
                 <span>Fri</span>
                 <span>Sat</span>
+                <span>Sun</span>
             </div>
             <div className="days">
                 <span>1</span>
@@ -80,7 +87,7 @@ const CalendarApp = () => {
             </div>
         </div>
     </div>
-  )
+    )
 }
 
 export default CalendarApp
